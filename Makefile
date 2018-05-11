@@ -28,8 +28,8 @@ HEADERS = $(wildcard *.h)
 
 .PRECIOUS: $(TARGET) $(OBJECTS)
 
-lutctrl: Makefile lutctrl.c readline.c writen.c error_functions.c
-	$(CC) $(DFLAGS) lutctrl.c \
+lutctrl: Makefile main.c readline.c writen.c error_functions.c
+	$(CC) $(DFLAGS) main.c \
 		error_functions.c  \
 		error.c \
 		readline.c \
