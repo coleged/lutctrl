@@ -10,7 +10,7 @@
 #                                                                         *
 #*************************************************************************/
 TARGET = lutctrl 
-LIBS = -lm -lutil -L./lib 
+LIBS = -lm -lutil  
 CC = gcc
 CFLAGS = -g -Wall
 DFLAGS = -DDEBUG=0
